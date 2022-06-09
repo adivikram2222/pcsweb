@@ -13,3 +13,5 @@ def educational(request):
     return render(request,'educational.html')
 def base(request):
     return render(request,'base.html')
+def registeration(request):
+    return render(request,'registeration.html')

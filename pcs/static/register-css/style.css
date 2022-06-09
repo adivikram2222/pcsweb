@@ -1,0 +1,130 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #464032;
+	background: #fff;
+}
+a {
+	text-decoration: none;
+	color: #A7430F;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+img {
+	width: 100%;
+	height: auto;
+	border: 0px;
+}
+.breaker {
+	clear: both;
+	height: 0.1px;
+}
+.break {
+	clear: both;
+	height: 12px;
+}
+.post-require {
+	margin: auto;
+	max-width: 1024px;
+	background: #fff;
+	margin-top: 12px;
+	margin-bottom: 25px;
+	box-shadow: 0 2px 4px #ccc;
+}
+.post-require h2 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: normal;
+	text-align: center;
+	background: #C0392B;
+	padding: 8px 0;
+}
+.post-require p {
+	color: #393333;
+	font-size: 14px;
+	padding: 8px 15px;
+}
+.post-require ul {
+	margin: 0px;
+	padding: 0px;
+}
+.post-require li {
+	list-style: none;
+	line-height: 22px;
+	padding: 6px 15px;
+	color: #000;
+	font-size: 14px;
+}
+.post-form {
+	width: 100%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.post-forms {
+	float: left;
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.post-require input[type="text"] {
+	width: 93%;
+	color: #999999;
+	padding: 7px 2% 7px 10px;
+	line-height: 20px;
+	border: none;
+	margin-top: 5px;
+	font-size: 15px;
+	background: #fff;
+	border: 1px solid #E0E0E0;
+}
+.post-require select {
+	width: 98%;
+	color: #999999;
+	padding: 7px 2% 7px 10px;
+	line-height: 20px;
+	border: none;
+	margin-top: 5px;
+	font-size: 15px;
+	background: #fff;
+	border: 1px solid #E0E0E0;
+}
+.post-require textarea {
+	padding: 9px 0 9px 10px;
+	border: none;
+	background: #fff;
+	border: 1px solid #E0E0E0;
+	width: 95%;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #999999;
+}
+.post-require input[type="button"] {
+	padding: 12px 0;
+	background: #0389C1;
+	width: 88%;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	border: 0px;
+	margin-top: 9px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.forms {
+	width: 48%;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.forms1 {
+	width: 48%;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration</title>
+  <meta name="keywords" content="" />
+  <meta name="robots" content="all">
+  <meta name="googlebot" content="index, follow">
+  <Meta HTTP-EQUIV="Expires" content="no-expire">
+  <meta name="distribution" content="global">
+  <link href="image/icon.png" rel="icon">
+  <!-- Design -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="css/fonts.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+  <!-- Page -->
+  <div class="post-require">
+    <h2>Registration</h2>
+    <h3 style="text-align: center; font-size: 20px;">Candidate Details</h3>
+    <div class="post-form">
+      <ul>
+        <form method="post" name="msgform" id="msgform" onsubmit="return validate(this)" action="#">
+          <div class="forms">
+            <li>Candidate Name<br>
+              <input name="name" id="name" type="text" />
+            </li>
+          </div>
+          <div class="forms">
+            <li>Contact Number<br>
+              <input name="name" id="name" type="text" />
+            </li>
+          </div>
+          <div class="forms">
+            <li>Email<br>
+              <input name="name" id="name" type="text" />
+            </li>
+          </div>
+          <div class="forms">
+            <li>Gender<br>
+              <input type="radio" name="gender" value="male"> Male
+              <input type="radio" name="gender" value="female"> Female
+              <input type="radio" name="gender" value="other"> Other
+            </li>
+          </div>
+          <div class="breaker"></div>
+          <div class="forms">
+            <li>Address<br>
+              <input name="name" id="name" type="text" />
+            </li>
+          </div>
+          <div class="forms">
+            <li>Pin Code<br>
+              <input name="name" id="name" type="text" />
+            </li>
+          </div>
+          <li>city<br>
+            <input type="text" id="city" name="city">
+          </li>
+          <li>State<br>
+            <input type="text" id="state" name="state">
+          </li>
+          <h3 style="text-align: center; font-size: 20px;">Parents Details</h3>
+          <div class="forms">
+            <li>Father's Name<br>
+              <input name="father-name" id="father-name" type="text" />
+            </li>
+            <li>Mother's Name<br>
+              <input name="mother-name" id="mother-name" type="text" />
+            </li>
+          </div>
+          <div class="forms">
+            <li>Contact Number<br>
+              <input name="name" id="name" type="text" />
+            </li>
+          </div>
+          <div class="forms">
+            <li>Email<br>
+              <input name="name" id="name" type="text" />
+            </li>
+          </div>
+          <div class="forms">
+            <li>Address<br>
+              <input name="name" id="name" type="text" />
+            </li>
+            <li>Pin Code<br>
+              <input name="name" id="name" type="text" />
+            <li>city<br>
+              <input type="text" id="city" name="city">
+
+            </li>
+            <li>State<br>
+              <input type="text" id="state" name="state">
+          </div>
+          <div class="break"></div>
+
+
+
+          <h3 style="text-align: center; font-size: 20px;">Candidate Educational Details</h3>
+          <div class="forms">
+            <li>Class XII<br>
+              <input type="radio" name="std" value="appearing"> appearing
+              <input type="radio" name="std" value="passed"> Passed
+            </li>
+          </div>
+          <div class="forms">
+            <li>Subject in class XII<br>
+              <select id="person_select" name="courses" class="form-control" required="required">
+                <option value="PCM">PCM</option>
+                <option value="PCB">PCB</option>
+                <option value="COM">COM</option>
+                <option value="ARTS">ARTS</option>
+                <option value="Other">Other</option>
+              </select>
+            </li>
+          </div>
+          <div class="forms">
+            <li>If passed class 12th then enter your mark<br>
+            </li><input type="text" id="12th-marks" name="12th-marks" value="12th-marks" style="margin-left: 20px;">
+          </div>
+          <div class="forms">
+            <li>Name Three College Your Prefur<br>
+              <input type="text" id="colleges-name">
+            </li>
+          </div>
+          <div class="forms">
+            <li>Name Three States Your Prefur<br>
+              <input type="text" id="states-name">
+            </li>
+          </div>
+          <div class="forms">
+            <input name="send" type="button" id="send" value="Submit" onclick="return validate();"
+              style="margin-top: 30px;" />
+          </div>
+    </div>
+    <div class="break"></div>
+    </form>
+    </ul>
+  </div>
+  </div>
+  <div class="breaker"></div>
+  </div>
+</body>
+
+</html>

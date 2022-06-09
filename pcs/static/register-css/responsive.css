@@ -1,0 +1,18 @@
+@media all and (max-width: 1200px) {
+.post-require {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+@media all and (max-width: 768px) {
+.post-form {
+	float: left;
+	width: 100%;
+}
+.post-forms {
+	float: left;
+	width: 100%;
+}
+.forms {
+	width: 100%;
+}
+}
