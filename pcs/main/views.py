@@ -15,3 +15,10 @@ def base(request):
     return render(request,'base.html')
 def registeration(request):
     return render(request,'registeration.html')
+def login(request):
+    return render(request,'login.html')
+def dashboard(request):
+    return render(request,'dashboard.html')
+def itservices(request):
+    return render(request,'itindex.html')
+            

@@ -27,64 +27,7 @@
 
 <body>
   <!--Navigation bar-->
-  <header class="header">
-    <section class="container">
-       <div class="wrapper">
-          <a href="./index.html" class="brand">
-          
-            <img src="static/img/logo.png">
-
-          </a>
-          <button type="button" class="burger" id="burger">
-             <span class="burger-line"></span>
-             <span class="burger-line"></span>
-             <span class="burger-line"></span>
-             <span class="burger-line"></span>
-          </button>
-          <span class="overlay" id="overlay"></span>
-          <nav class="navbar" id="navbar">
-             <ul class="menu">
-                <li class="menu-item"><a href="#">Home</a></li>
-                <li class="menu-item"><a href="/about">About</a></li>
-                <li class="menu-item menu-item-child">
-                   <a href="#" data-toggle="sub-menu">Services<i class="expand"></i></a>
-                   <ul class="sub-menu">
-                      <li class="menu-item"><a href="/educational">Educational</a></li>
-                      <li class="menu-item"><a href="#">Training</a></li>
-                      <li class="menu-item"><a href="#">Placement</a></li>
-                      <li class="menu-item"><a href="#">IT Services</a></li>
-                   </ul>
-                </li>
-                <li class="menu-item menu-item-child">
-                   <a href="#" data-toggle="sub-menu">Planning <i class="expand"></i></a>
-                   <ul class="sub-menu">
-                      <li class="menu-item"><a href="#">Basic</a></li>
-                      <li class="menu-item"><a href="#">Standard</a></li>
-                      <li class="menu-item"><a href="#">Premium</a></li>
-                      <li class="menu-item"><a href="#">Professional</a></li>
-                   </ul>
-                </li>
-                <li class="menu-item menu-item-child">
-                   <a href="#" data-toggle="sub-menu">company<i class="expand"></i></a>
-                   <ul class="sub-menu">
-                      <li class="menu-item"><a href="#">Design Project</a></li>
-                      <li class="menu-item"><a href="#">Development Project</a></li>
-                      <li class="menu-item"><a href="#">Branding Project</a></li>
-                      <li class="menu-item"><a href="#">Others Project</a></li>
-                   </ul>
-                </li>
-                <li class="menu-item"><a href="/contact">Contact</a></li>
-                <!-- <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li> -->
-                <a href="#login" class="get-started-btn"  data-target="#login" data-toggle="modal">login/signup</a>
-                <!-- <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li> -->
-             </ul>
-          </nav>
-       </div>
-    </section>
- </header>
-
-
-
+ {% include "header.html" %}
   <!--/ Navigation bar-->
   <!--Modal box-->
   <div class="modal fade" id="login" role="dialog">
